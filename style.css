@@ -1,0 +1,33 @@
+
+/* reset */
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #090A0D;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  height: 100%;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* center */
+
+.p5Canvas{
+  /* display: inline-block; */
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
